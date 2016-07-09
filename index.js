@@ -35,10 +35,10 @@ export default function gifit(opts) {
       });
     })
     .catch(FileExistsError, (err) => {
-      console.log(`File doesn't exist: ${absoluteInputFilePath}`);
+      reject(err)
     })
     .catch((err) => {
-      console.log(error)
+      reject(err)
     })
   });
 }

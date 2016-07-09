@@ -1,7 +1,7 @@
 {
   "name": "gifit",
   "repository": "joegesualdo/gifit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Quickly convert video to high quality GIF.",
   "main": "./dist/index.js",
   "scripts": {
