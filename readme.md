@@ -59,5 +59,8 @@ $ npm test
 $ npm run build
 ```
 
+## Related
+- [gifit-cli](https://github.com/joegesualdo/gifit-cli) - CLI for this module.
+
 ## License
 MIT © [Joe Gesualdo]()

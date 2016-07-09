@@ -100,9 +100,9 @@ module.exports =
 	        }
 	      });
 	    }).catch(FileExistsError, function (err) {
-	      console.log('File doesn\'t exist: ' + absoluteInputFilePath);
+	      reject(err);
 	    }).catch(function (err) {
-	      console.log(error);
+	      reject(err);
 	    });
 	  });
 	}
