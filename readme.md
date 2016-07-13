@@ -25,6 +25,10 @@ gifit({
 })
 ```
 
+## Requirements
+- [ffmpeg](https://ffmpeg.org/download.html)
+    - must have the ability to run the `ffmpeg` executable (`$ ffmpeg`)
+
 ## API
 ### `gifit([options])`
 > Converts a video to gif
